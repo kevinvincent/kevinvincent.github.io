@@ -210,3 +210,7 @@ p a {
   padding-top: 2px !important;
   padding-bottom: 2px !important;
 }
+
+.pointer {
+  cursor: pointer;
+}

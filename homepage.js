@@ -72,5 +72,10 @@ $(document)
       $paneTarget.stop().scrollTo( '#contact', 400 );
     });
 
+    $('#mail').click(function() { window.location = "mailto:kevinsundar@gmail.com"; })
+    $('#email').click(function() { window.location = "mailto:kevinsundar@gmail.com"; })
+    $('#github').click(function() { window.location = "https://github.com/kevinvincent"; })
+    $('#linkedin').click(function() { window.location = "http://www.linkedin.com/profile/view?id=201989673"; })
+
   })
 ;
