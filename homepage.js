@@ -81,11 +81,11 @@ $(document)
 
         // Function to handle changes to style classes based on window width
         function checkWidth() {
-        if ($window.width() < 768) {
+        if ($window.width() < 770) {
             $('.ui.dimmer').dimmer('show');
 
         }
-        if ($window.width() >= 768) {
+        if ($window.width() >= 770) {
             $('.ui.dimmer').dimmer('hide');
         }
     }
