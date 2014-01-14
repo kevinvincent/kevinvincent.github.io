@@ -77,5 +77,21 @@ $(document)
     $('#github').click(function() { window.location = "https://github.com/kevinvincent"; })
     $('#linkedin').click(function() { window.location = "http://www.linkedin.com/profile/view?id=201989673"; })
 
+        var $window = $(window);
+
+        // Function to handle changes to style classes based on window width
+        function checkWidth() {
+        if ($window.width() < 768) {
+            $('.ui.dimmer').dimmer('show');
+
+        }
+        if ($window.width() >= 768) {
+            $('.ui.dimmer').dimmer('hide');
+        }
+    }
+
+    // Execute on load
+    checkWidth();
+
   })
 ;
